@@ -1,0 +1,193 @@
+<style>
+
+
+    body {
+        background-color: #f0f0f0;
+    }
+    .carousel-item {
+        height: 400px;
+        background-color: #f0f0f0;
+    }
+    .carousel-item img {
+        height: 100%;
+        width: auto;
+    }
+    .carousel-caption {
+        bottom: 30px;
+    }
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        background-color: #fff;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+    }
+    .carousel-control-prev-icon:hover, .carousel-control-next-icon:hover {
+        background-color: #ddd;
+    }
+
+
+/* logo */
+/* .playo-logo{
+    font-weight: bold;
+    color: #2196F3;
+}
+
+.playo-logo:hover{
+    color: #4CAF50;
+}
+
+.nav-link{
+    color: #2196F3 !important;
+}
+
+.nav-link:hover{
+    color: #4CAF50 !important;
+}
+
+.btn{
+    background-color: #4CAF50;
+    color: white;
+}
+.btn:hover{
+    background-color: #2196F3;
+}
+
+/* Make the navbar sticky */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+} */
+
+
+
+/* Add some padding to the top of the page to prevent content from being hidden under the navbar */
+body {
+    padding-top: 60px;
+}
+
+
+.navbar {
+    padding: 0.5rem 1rem;
+}
+.navbar-brand img {
+    height: 70px; /* Adjust the height as needed */
+    width: auto; /* Maintain aspect ratio */
+}
+.navbar-brand span {
+    color: #09f179;
+}
+.location {
+    background-color: white;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+}
+.location i {
+    margin-right: 0.5rem;
+}
+.nav-link {
+    color: #05ee62;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
+.nav-link:hover{
+    color: #4CAF50 !important;
+}
+.nav-link i {
+    margin-right: 0.5rem;
+}
+
+
+
+
+/* modals */
+
+
+background-color: #f8f9fa;
+        }
+        .map-container {
+            position: relative;
+            width: 50%;
+            height: 100vh;
+            background: url('https://placehold.co/600x800') no-repeat center center;
+            background-size: cover;
+        }
+        .chat-bubble {
+            position: absolute;
+            background: white;
+            border-radius: 20px;
+            padding: 10px 15px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .chat-bubble img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: 3px solid #00bfa5;
+        }
+        .chat-bubble p {
+            margin: 0;
+            font-size: 14px;
+        }
+        .login-container {
+            position: absolute;
+            top: 50%;
+            right: 0;
+            transform: translateY(-50%);
+            width: 50%;
+            background: white;
+            padding: 30px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .login-container h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .login-container .form-control {
+            margin-bottom: 20px;
+        }
+        .login-container .btn {
+            width: 100%;
+            padding: 10px;
+        }
+        .login-container .or-divider {
+            text-align: center;
+            margin: 20px 0;
+            position: relative;
+        }
+        .login-container .or-divider::before,
+        .login-container .or-divider::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            width: 40%;
+            height: 1px;
+            background: #ddd;
+        }
+        .login-container .or-divider::before {
+            left: 0;
+        }
+        .login-container .or-divider::after {
+            right: 0;
+        }
+        .login-container .or-divider span {
+            background: white;
+            padding: 0 10px;
+            position: relative;
+            z-index: 1;
+        }
+        .login-container .social-login {
+            display: flex;
+            justify-content: space-between;
+        }
+        .login-container .social-login button {
+            width: 48%;
+            padding: 10px;
+        }
+
+</style>

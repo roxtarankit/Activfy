@@ -1,0 +1,465 @@
+.Logo{
+    width: 124px;
+
+}
+
+.LogoImage{
+    height: 114px;
+}
+
+.nav{
+    position: relative;
+    left: 548px;
+    width: 1135px;
+    top: -109px;
+}
+
+.options{
+    height: 60px;
+    width: 140px;
+    text-align: center;
+    align-content: center;
+    display: inline-block;
+    text-decoration: none;
+}
+.navigation{
+    display: flex;
+}
+.mainbody{
+  width: 1560px;
+  margin-top: 65px;
+  display: -webkit-inline-box;
+}
+.leftbody{
+    position: relative;
+
+    width: 810px;
+
+}
+.locationinput{
+  height: 33px;
+  font-size: 20px;
+  border-radius: 119px;
+  width: 200px;
+  text-align: left;
+  padding-left: 64px;
+  cursor: pointer;
+}
+.locationinput:hover{
+   
+    background-color: #b9d6c1;
+    border-color: green;
+    /* transform: scale(1.02); */
+}
+
+.locationimg{
+  position: relative;
+  left: 47px;
+  top: -2px;
+  height: 1.6rem;
+  cursor: pointer;
+}
+
+.leftbodyinfotitle{
+    font-weight: 500;
+    line-height: 42px;
+
+}
+
+.leftbodyinfo{
+
+}
+.alignleft{
+
+    padding-left: 41px;
+    padding-top: 46px;
+    font-size: 40px;
+    
+}
+
+.rightimage{
+    height: 600px;
+}
+.Logo-on-image{
+    
+    position: relative;
+    top: -376px;
+    left: 222px;
+    
+}
+
+.see-all-venue{
+    position: relative;
+    display: inline-flex;
+    left: 1073px;
+
+}
+.Book-venue{
+position: relative;
+
+}
+.sub-body{
+    padding-left: 200px;
+    padding-right: 200px;
+
+}
+
+.a-see-all-vanue{
+    
+    text-decoration: none;
+    color: #2ecc41;
+    font-weight: 1000;
+    
+}
+.a-see-all-vanue:hover{
+    transform: scale(1.009);
+}
+
+.venue-info-inner{
+    display: inline-flex;
+    width: 500px;
+}
+/* .inner-div-with-image-and-avail-sports:hover{
+    transform: scale(1.009);
+} */
+.venue-info-outer{
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 1479px;
+}
+
+.avail-sports{
+    display: inline-block;
+    position: relative;
+    top: -94px;
+}
+.inner-div-with-image-and-avail-sports{
+    margin: 4px;
+    padding: 5px;
+    background-color: #a7e6813d;
+    border-radius: 24px;
+}
+.venue-info-inner{
+    display: inline-flex;
+    width: 500px;
+    height: 300px;
+}
+.venue-image{
+
+}
+.avail-sports{
+
+}
+.sports-img{
+    width: 40px;
+    top: 53px;
+    position: relative;
+}
+.venue-imgtag{
+    border-radius: 20px;
+}
+.address{
+    position: relative;
+    top: 220px;
+    height: 70px;
+    color: #2ecc41;
+    right: 441px;
+}
+
+.address:hover{
+    transform: scale(1.01);
+}
+.venue-name{
+    
+}
+.venue-add{
+
+}
+.aa{
+
+}
+
+footer {
+    background-color: #c7ffd7; /* Very light green */
+    padding: 40px 0;
+    color: #333;
+    text-align: center;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .footer-logo {
+    text-align: left;
+  }
+  
+  .footer-logo p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .footer-links {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .footer-column {
+    text-align: left;
+  }
+  
+  .footer-column h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease; /* Smooth transition effect */
+  }
+  
+  .footer-column ul li a:hover {
+    color: #006400; /* Dark green on hover */
+  }
+  
+  /* Responsive Footer */
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .footer-links {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .footer-column {
+      text-align: center;
+    }
+  }
+
+  /* Header Section */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    /* Light green background color */
+}
+
+
+
+/* CSS for Hover of Header Play Book And Learn*/
+
+  /* Basic Reset */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header Styling */
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  /* Logo Styling */
+  .logo img {
+    width: 120px;
+    height: auto;
+    max-width: 100%;
+  }
+  
+  /* Navigation Links */
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+  
+  nav ul li {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #18f100;
+  }
+  
+  /* SVG Icons Styling */
+  nav svg {
+    margin-right: 0%;
+    position: relative;
+    fill: #33333305;
+    transition: fill 0.3s ease;
+    left: 41px;
+  }
+  
+  nav ul li:hover svg {
+    fill: #1dd30d;
+  }
+  
+  /* Responsive Header for Mobile */
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 10px 20px;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      gap: 15px;
+    }
+  }
+  
+  
+  
+  /*  
+  header search 
+  */
+  
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  
+  
+  .location-search {
+    margin-left: 0px; /* Move it 10px to the right of the logo */
+  }
+  
+  
+  
+  
+  
+
+
+  
+  .logo img {
+    width: 100px;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  .login a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+  }
+
+
+
+
+/* bmi color  */
+.fa-calculator {
+    color: #00C853;
+}
+.nav-link i.fa-calculator {
+  color: #1e1c1c;
+}
+
+.nav-link i.fa-calculator:hover {
+  color: #1fc32f;
+}
+
+
+
+
+
+
+
+
+.bmi nav-link{
+  position: relative;
+  left: px;
+  top: 5px;
+  height: 1.3rem;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

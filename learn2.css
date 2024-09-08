@@ -1,0 +1,91 @@
+
+  /* Footer Styles */
+  footer {
+    background-color: #c7ffd7; /* Very light green */
+    padding: 40px 0;
+    color: #333;
+    text-align: center;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .footer-logo {
+    text-align: left;
+  }
+  
+  .footer-logo p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .footer-links {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .footer-column {
+    text-align: left;
+  }
+  
+  .footer-column h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease; /* Smooth transition effect */
+  }
+  
+  .footer-column ul li a:hover {
+    color: #006400; /* Dark green on hover */
+  }
+  
+  /* Responsive Footer */
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .footer-links {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .footer-column {
+      text-align: center;
+    }
+  }
+  
+
+
+
+  .rounded-image {
+    width: 150px; /* Adjust size as needed */
+    height: 150px; /* Ensure width and height are equal */
+    border-radius: 50%; /* Makes the image round */
+    object-fit: cover; /* Ensures the image fits within the circle */
+    border: 2px solid #ccc; /* Optional: Adds a border around the image */
+  }
+  

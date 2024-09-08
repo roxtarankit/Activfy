@@ -1,0 +1,494 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+/* Header Section */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  /* Light green background color */
+}
+
+/* Header Section */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  /* Light green background color */
+}
+
+
+
+/* CSS for Hover of Header Play Book And Learn*/
+
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header Styling */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: #f8f8f8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Logo Styling */
+.logo img {
+  width: 120px;
+  height: auto;
+  max-width: 100%;
+}
+
+/* Navigation Links */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav ul li {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #18f100;
+}
+
+/* SVG Icons Styling */
+nav svg {
+  margin-right: 0%;
+  fill: #333;
+  transition: fill 0.3s ease;
+}
+
+nav ul li:hover svg {
+  fill: #1dd30d;
+}
+
+/* Responsive Header for Mobile */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
+
+
+/*  
+header search 
+*/
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+.location-search {
+  margin-left: 0px; /* Move it 10px to the right of the logo */
+}
+
+
+
+.logo img {
+  width: 100px;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}
+
+.login a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Main Section */
+  main {
+    padding: 50px;
+    text-align: left;
+  }
+  
+  .location-search input {
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  .main-content {
+    margin: 30px 0;
+  }
+  
+  .main-content h1 {
+    font-size: 36px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .main-content p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .sports-images {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .sport-image {
+    flex: 1;
+  }
+  
+  .sport-image img {
+    width: 100%;
+    border-radius: 15px;
+  }
+  
+  
+
+  /* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background-color: #f8f8f8;
+    color: #333;
+  }
+  
+  /* Header Section */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.filter-btn {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.games-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.game-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.user-img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.user-info h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.players-going {
+    font-size: 18px;
+    color: #28a745;
+    font-weight: bold;
+}
+
+.game-time {
+    font-size: 14px;
+    color: #555;
+    margin: 10px 0;
+}
+
+.game-location {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.level {
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    display: inline-block;
+}
+
+.status {
+    color: #28a745;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+.games-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.game-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    flex-basis: 30%; /* Ensure 3 cards per row */
+    margin-bottom: 20px;
+}
+
+@media (max-width: 900px) {
+    .game-card {
+        flex-basis: 45%; /* Adjust to 2 cards per row for smaller screens */
+    }
+}
+
+@media (max-width: 600px) {
+    .game-card {
+        flex-basis: 90%; /* Adjust to 1 card per row for very small screens */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Footer Styles */
+  footer {
+    background-color: #c7ffd7; /* Very light green */
+    padding: 40px 0;
+    color: #333;
+    text-align: center;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .footer-logo {
+    text-align: left;
+  }
+  
+  .footer-logo p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .footer-links {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .footer-column {
+    text-align: left;
+  }
+  
+  .footer-column h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease; /* Smooth transition effect */
+  }
+  
+  .footer-column ul li a:hover {
+    color: #006400; /* Dark green on hover */
+  }
+  
+  /* Responsive Footer */
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .footer-links {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .footer-column {
+      text-align: center;
+    }
+  }
